@@ -1,0 +1,78 @@
+body {
+  padding: 0;
+  margin: 0;
+  word-wrap:break-word;
+}
+#background-grad {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(45deg, blue, red);
+  background: -webkit-linear-gradient(45deg, blue, red);
+  background: -moz-linear-gradient(45deg, blue, red);
+}
+#content-wrapper {
+  position: absolute;
+  padding: 5% 10%;
+  transition: opacity 0.2s;
+  -webkit-transition: opacity 0.2s; /* Safari */
+  opacity: 1;
+  display: block;
+}
+#main-content {
+  text-align: justify;
+  font-size: 14px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 5em;
+  padding-right: 5em;
+  background-color: rgba(0, 0, 50, 0.8);
+  color: white;
+  line-height: 1.5em;
+  font-family: Helvetica;
+  border-radius: 20px;
+}
+#main-content h1 {
+  text-align: center;
+  line-height: 1.5em;
+}
+#main-content a {
+  text-decoration: none;
+  color: lightblue;
+}
+#main-content a:visited {
+  color: lightblue;
+}
+#change-bg-container {
+  text-align: center;
+}
+#green-purple {
+  background: linear-gradient(45deg, green, purple);
+  background: -webkit-linear-gradient(45deg, green, purple);
+  background: -moz-linear-gradient(45deg, green, purple);
+}
+#red-orange {
+  background: linear-gradient(45deg, red, orange);
+  background: -webkit-linear-gradient(45deg, red, orange);
+  background: -moz-linear-gradient(45deg, red, orange);
+}
+#black-white {
+  background: linear-gradient(45deg, black, white);
+  background: -webkit-linear-gradient(45deg, black, white);
+  background: -moz-linear-gradient(45deg, black, white);
+}
+#blue-red {
+  background: linear-gradient(45deg, blue, red);
+  background: -webkit-linear-gradient(45deg, blue, red);
+  background: -moz-linear-gradient(45deg, blue, red);
+}
+
+.change-bg {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: red;
+  border-radius: 5px;
+}
